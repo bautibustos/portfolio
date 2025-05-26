@@ -1,0 +1,88 @@
+:root{
+    --color-50: #f5f6f6;
+    --color-100: #e5e7e8;
+    --color-200: #cdd0d4;
+    --color-300: #aaaeb6;
+    --color-400: #808690;
+    --color-500: #656b75;
+    --color-600: #575b63;
+    --color-700: #4b4e55;
+    --color-800: #414349;
+    --color-900: #3a3c3f;
+    --color-950: #242528;
+}
+
+*{
+    /*all color https://uicolors.app/generate/4b4e55*/ 
+    background-color:0;
+    margin: 0;
+    border: 0px;
+    padding: 0;
+    font-family: "Oxygen", sans-serif;
+    text-decoration: none;
+    color: var(--color-50);
+}
+
+.oxygen-light {
+    font-family: "Oxygen", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+  
+.oxygen-regular {
+    font-family: "Oxygen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.oxygen-bold {
+    font-family: "Oxygen", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+}
+  
+body {
+    background-color: var(--color-950);
+}
+
+
+.presentacion{
+    text-align: center;
+}
+
+.presentacion h1{
+    
+    font-size: 20px;
+    color: var(--color-300);
+}
+.presentacion h2{
+    font-size: 42px;
+    color: var(--color-50);
+}
+
+.descripcion{
+    display:flex;
+    gap: 40px;
+    padding: 30px;
+    margin: 20px 20%;
+    align-items: center;
+    color: var(--color-50);
+
+}
+.descripcion img{
+    border-radius: 50%;
+    width: 250px;
+    object-fit: cover;
+}
+
+.xp{
+    align-items: center;
+    padding: 10px ;
+    margin: 20px 420px;
+    text-align: left;
+}
+
+.izq{
+    margin: 20px 220px;
+    padding: 10px 10px;
+}
