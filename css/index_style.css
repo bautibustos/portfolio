@@ -14,7 +14,6 @@
 
 *{
     /*all color https://uicolors.app/generate/4b4e55*/ 
-    background-color:0;
     margin: 0;
     border: 0px;
     padding: 0;
@@ -45,44 +44,40 @@ body {
     background-color: var(--color-950);
 }
 
+section{
+    max-width: 800px;    
+    margin: auto;
+    align-items: center;
+    padding: 20px;
+}
+
+.title{
+    font-size: 32px;
+}
 
 .presentacion{
     text-align: center;
 }
-
 .presentacion h1{
-    
     font-size: 20px;
     color: var(--color-300);
 }
+
 .presentacion h2{
-    font-size: 42px;
+    font-size: 40px;
     color: var(--color-50);
 }
 
 .descripcion{
     display:flex;
     gap: 40px;
-    padding: 30px;
-    margin: 20px 20%;
-    align-items: center;
     color: var(--color-50);
-
 }
 .descripcion img{
     border-radius: 50%;
-    width: 250px;
-    object-fit: cover;
+    width: 12rem;
 }
 
-.xp{
-    align-items: center;
-    padding: 10px ;
-    margin: 20px 420px;
-    text-align: left;
-}
-
-.izq{
-    margin: 20px 220px;
-    padding: 10px 10px;
+.xp h3{
+    font-size: 24px;
 }
