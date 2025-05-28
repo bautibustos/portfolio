@@ -78,6 +78,13 @@ section{
     width: 12rem;
 }
 
+.tarjeta{
+    padding: 1rem;
+    color: var(--color-100);
+    background-color: var(--color-700);
+}
+
 .xp h3{
     font-size: 24px;
 }
+
