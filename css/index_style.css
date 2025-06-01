@@ -79,7 +79,7 @@ section{
 }
 
 .tarjeta{
-    padding: 1rem;
+    padding: 1em;
     color: var(--color-100);
     background-color: var(--color-700);
 }
@@ -88,3 +88,24 @@ section{
     font-size: 24px;
 }
 
+.sub-tecno{
+    margin: 16px;
+}
+
+.badge-custom-python {
+    background-color: red;
+    color:white;
+    border: 1px solid var(--badge-python-border); /* Ajusta el grosor si quieres */
+}
+
+.badge-custom-html {
+    background-color: green;
+    color: white;
+    border: 1px solid var(--badge-html-border);
+}
+
+.badge-custom-css {
+    background-color: blue;
+    color: white;
+    border: 1px solid var(--badge-green-border);
+}
