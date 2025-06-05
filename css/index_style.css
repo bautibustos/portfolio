@@ -10,6 +10,7 @@
     --color-800: #414349;
     --color-900: #3a3c3f;
     --color-950: #242528;
+    --color-1050: #111213;
 }
 
 *{
@@ -49,6 +50,7 @@ body {
 section{
     max-width: 800px;    
     margin: auto;
+    margin-bottom: 0px;
     align-items: center;
     padding: 20px;
 }
@@ -106,4 +108,15 @@ a{
     font-size: 24px;
 }
 
+footer{
+    background-color: var(--color-800);
+    align-items: center;
+    text-align: center;
+    opacity:70%;
+}
 
+.iconos{
+    width:48px;
+    height: 48px;
+    margin: 10px;
+}
