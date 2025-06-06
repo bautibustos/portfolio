@@ -29,20 +29,20 @@
     font-weight: 300;
     font-style: normal;
 }
-  
+
 .oxygen-regular {
     font-family: "Oxygen", sans-serif;
     font-weight: 400;
     font-style: normal;
-  }
-  
+}
+
 .oxygen-bold {
     font-family: "Oxygen", sans-serif;
     font-weight: 700;
     font-style: bold;
 }
 
-  
+
 body {
     background-color: var(--color-950);
 }
@@ -92,7 +92,6 @@ a{
     background-color: var(--color-700);
 }
 
-
 .xp h3{
     font-size: 24px;
 }
@@ -119,4 +118,18 @@ footer{
     width:48px;
     height: 48px;
     margin: 10px;
+    padding: 8px;
+    background: white;
+    border-radius: 999px;
+    margin-bottom: 16px;
 }
+
+.tags{
+    padding: 4px 8px;
+    display: inline-flex;
+    color: #75b798;
+    background: #051b11;
+    border: 2px solid #0f5132;
+    border-radius: 8px
+}
+
