@@ -26,7 +26,7 @@
 
 .oxygen-light {
     font-family: "Oxygen", sans-serif;
-    font-weight: 300;
+    font-weight: 200;
     font-style: normal;
 }
 
@@ -95,7 +95,14 @@ a{
 .xp h3{
     font-size: 24px;
 }
+.xp h4{
+    font-size: 18px;
+    color: var(--color-200)
+}
 
+.xp .descripcion{
+    color: var(--color-300);
+}
 
 .badge-custom{
     /*background-color: red;*/
